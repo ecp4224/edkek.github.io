@@ -1,0 +1,447 @@
+html, body {
+  height: 100%;
+  min-height: 100%; /* for firefox */
+}
+body {
+font-family: 'Oxygen', sans-serif;
+margin:0;
+padding:0;
+color:#ffffff;
+}
+
+.box1 ul {
+display:table-row;
+}
+
+.box1 ul li {
+display: table-cell;
+height: 100px;
+width:464px;
+list-style-type: none;
+vertical-align: middle;
+text-align:center;
+}
+
+.box1 ul li a {
+text-decoration:none;
+color:#eff4ff;
+font-size:14pt;
+font-weight:200;
+}
+
+div.github_button {
+position:fixed;
+bottom:28px;
+left:22px;
+z-index:3;
+}
+
+div.b_top {
+background-color:#99b433;
+position:fixed;
+right:0px;
+bottom:28px;
+z-index: 3;
+width:20%;
+height:21px;
+padding:6px;
+-webkit-box-shadow: 0 8px 30px -6px black;
+-moz-box-shadow: 0 8px 30px -6px black;
+box-shadow: 0 8px 30px -6px black;
+}
+
+.b_top a {
+text-decoration:none;
+color:#eff4ff;
+font-size:14pt;
+font-weight:200;
+width:100%;
+height:100%;
+position:absolute;
+top:3px;
+left:15px;
+}
+
+div.links {
+background-color:#1e7145;
+width:100%;
+height:110px;
+margin-bottom:110px;
+position:absolute;
+bottom:0;
+}
+
+div.box1 {
+background-color:#009900;
+width:100%;
+height:95%;
+float:left;
+text-align:center;
+}
+
+div.leftbox {
+float:left;
+margin-left:80px;
+}
+
+div.rightbox {
+float:right;
+margin-right:80px;
+}
+
+span.hello {
+text-align: center;
+font-size:1000%;
+font-weight:400;
+letter-spacing:0.05em;
+text-align:center
+}
+
+span.lower {
+font-size:140%;
+font-weight:lighter;
+}
+
+div.about1 {
+width:100%;
+}
+
+.box2 p {
+font-size:125%;
+font-weight:lighter;
+margin-left:34px;
+}
+
+div.text_left {
+float:left;
+width:41%;
+}
+
+div.text_right {
+float:right;
+width:41%;
+margin-right:45px;
+}
+
+.text_left h2 {
+margin-left:34px;
+font-size:160%;
+}
+
+.text_right h2 {
+margin-left:34px;
+font-size:160%;
+}
+
+div.box2 {
+background-color:#3399ff;
+width:100%;
+padding-bottom:125px;
+float:left;
+}
+
+div.box3 {
+background-color:#da532c;
+width:100%;
+padding-bottom:300px;
+float:left;
+}
+
+.box3 p {
+text-align:center;
+font-weight:lighter;
+font-size:130%;
+margin-left:45px;
+margin-right:45px;
+margin-top:25px;
+}
+
+.box3 ul {
+margin-top:70px;
+margin-left:108px;
+}
+
+.box3 ul li {
+margin:80px;
+}
+
+div.box4 {
+background-color:#1d1d1d;
+width:100%;
+padding-bottom:150px;
+float:left;
+}
+
+.box4 ul {
+margin-top:70px;
+margin-left:108px;
+}
+
+div.projectBox {
+background-color:#eff4ff;
+background-size: 428px auto;
+background-repeat: no-repeat;
+color:#1d1d1d;
+padding-top:5px;
+padding-bottom:5px;
+padding-left:33px;
+padding-right:33px;
+width:428px;
+text-align:center;
+margin-left:38px;
+margin-top:20px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+-moz-box-shadow:    inset 0 0 20px #000000;
+-webkit-box-shadow: inset 0 0 20px #000000;
+box-shadow:         inset 0 0 20px #000000;
+}
+
+#java {
+background-image: url('../images/java_p.png');
+}
+
+#csharp {
+background-image: url('../images/c_sharp_p.png');
+}
+
+#cplusplus {
+background-image: url('../images/c_plusplus_p.png');
+}
+
+#html {
+background-image: url('../images/html_p.png');
+}
+
+#web {
+background-image: url('../images/web_p.png');
+}
+
+.projectBox img {
+width:150px;
+height:150px;
+}
+
+.projectBox h3 {
+font-size:140%;
+font-weight:600;
+}
+
+.projectBox p {
+font-size:125%;
+font-weight:lighter;
+}
+
+.projectBox a {
+text-decoration:none;
+color: inherit;
+}
+
+div.box5 {
+background-color:#009900;
+width:100%;
+height:100%;
+float:left;
+}
+
+.box5 a {
+text-decoration:none;
+color:#eff4ff;
+font-size:14pt;
+font-weight:200;
+width:100%;
+height:100%;
+}
+
+.box5 p {
+text-align:center;
+font-weight:lighter;
+font-size:130%;
+}
+
+div.contact_button {
+background-color:#1e7145;
+padding-top:30px;
+padding-left:30px;
+width:50%;
+height:130px;
+margin-top:175px;
+-webkit-box-shadow: 0 8px 30px -6px black;
+-moz-box-shadow: 0 8px 30px -6px black;
+box-shadow: 0 8px 30px -6px black;
+}
+
+span.test {
+margin:auto;
+}
+
+.box3 li {float: left;margin:40px 10px 0;position: relative;list-style: none;}
+.box3 li .label {position: absolute;top: 40px;left: 0;text-align: center;font-size: 14px;line-height: 1.5em;width: 100%}
+.box3 li .label small {font-size: 12px;color: #eff4ff;}
+
+.box4 li {float: left;margin:40px 10px 0;position: relative;list-style: none;}
+
+
+
+div.email_box {
+	text-align:initial;
+}
+
+.email_box p {
+	text-align:initial;
+}
+
+.radius-progress{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 6px solid #ddd;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.loader-bg
+{
+    width: 128px;
+    height: 128px;
+    position: relative;
+    margin: -6px 0 0 -6px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.spiner-holder-1
+{
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+    width: 50%;
+    height: 50%;
+    background: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.spiner-holder-2
+{
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.loader-spiner
+{
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+    border: 6px solid #00aba9;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}  
+  .animate-0-25-a
+{
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin: 100% 100%;
+}
+.animate-0-25-b
+{   
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin: 100% 100%;
+}
+.animate-25-50-a
+{
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin: 100% 100%;
+}
+.animate-25-50-b
+{
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin: 100% 100%;
+}
+.animate-50-75-a
+{
+    -webkit-transform:rotate(270deg);
+    -moz-transform:rotate(270deg);
+    -o-transform:rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin: 100% 100%;
+}
+.animate-50-75-b
+{
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin:100% 100%;
+}
+.animate-75-100-a
+{
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -o-transform:rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin: 100% 100%;
+}
+.animate-75-100-b
+{
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin:100% 100%;
+    -moz-transform-origin:100% 100%;
+    -o-transform-origin:100% 100%;
+    transform-origin: 100% 100%;
+} 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Woah! What happened?</title>
+		<link rel="stylesheet" type="text/css" href="style/error.css">
+		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body onload="getStatus()">
+	<h1 id="error">404!</h1>
+	<p>Oh no..something happened. Lets get back to the <a href="index.html">homepage</a> shall we? Before we break anything else..</p>
+	<img src="images/error.png" alt="??"/>
+	</body>
+	
+	<script>
+		function getStatus() {
+			var hash = window.location.hash.substring(1);
+			if (hash == null || hash == "") {
+				hash = "Error";
+			}
+			hash = hash + "!";
+			
+			document.getElementById("error").innerHTML = hash;
+		}
+	</script>
+
+</html>

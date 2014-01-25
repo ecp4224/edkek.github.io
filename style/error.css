@@ -1,0 +1,33 @@
+html, body {
+  height: 90%;
+  min-height: 90%; /* for firefox */
+}
+body {
+font-family: 'Oxygen', sans-serif;
+margin:0;
+padding:0;
+color:#1d1d1d;
+background-color:#eff4ff;
+}
+
+h1 {
+font-size:1000%;
+font-weight:400;
+letter-spacing:0.05em;
+margin-left:88px;
+margin-top:63px;
+}
+
+img {
+height:100%;
+position:absolute;
+right:0;
+top:0;
+}
+
+p {
+margin-left:100px;
+width:41%;
+font-size:140%;
+font-weight:lighter;
+}
