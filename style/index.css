@@ -197,7 +197,7 @@ border-radius: 15px;
 box-shadow:         inset 0 0 20px #000000;
 }
 
-#java {
+/*#java {
 background-image: url('../images/java_p.png');
 }
 
@@ -215,7 +215,7 @@ background-image: url('../images/html_p.png');
 
 #web {
 background-image: url('../images/web_p.png');
-}
+}*/
 
 .projectBox img {
 width:150px;
