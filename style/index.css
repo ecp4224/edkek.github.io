@@ -170,11 +170,14 @@ background-color:#1d1d1d;
 width:100%;
 padding-bottom:150px;
 float:left;
+text-align:center;
 }
 
 .box4 ul {
 margin-top:70px;
-margin-left:108px;
+margin-left:77px;
+display: block;
+list-style: none;
 }
 
 div.projectBox {
