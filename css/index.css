@@ -63,7 +63,7 @@ div.github_button {
 	box-shadow:         inset 0 0 10px #000000;
 }
 
-.about h1 {
+.section h1 {
 	font-weight: 100;
 	letter-spacing: 1.3px;
 	font-size: 74px;
@@ -85,15 +85,7 @@ div.github_button {
 }
 
 .skills h1 {
-	font-weight: 100;
-	letter-spacing: 1.3px;
-	font-size: 74px;
 	margin-left: 35px;
-}
-
-.projects {
-	background-color: rgba(16, 16, 17, 0.0);
-	height: 100%;
 }
 
 .skill_view {
@@ -119,6 +111,132 @@ div.github_button {
 	float: left;
 	margin: 77px 128px 0;
 	display: list-item;
+}
+
+.projects {
+	background-color: rgba(16, 16, 17, 0.0);	
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 0%;
+}
+
+.projects h1 {
+	margin-left: 10%;
+}
+
+.projects li {
+	height: 100%;
+}
+
+.project {
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project img {
+	float: right;
+	width: 60%;
+	margin-bottom: 55px;
+	overflow: hidden;
+}
+
+.area1 {
+	float: left;
+	text-align: center;
+	width: 25%;
+	height: 500px;
+	font-weight: 100;
+	font-size: 20px;
+	position: relative;
+}
+
+.area1 h2 {
+	font-weight: 100;
+	font-size: 45px;
+}
+
+.area1 p {
+	font-weight: 100;	
+	font-size: 20px
+}
+
+.area1 ul {
+	display: block;
+	list-style: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.area1 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.area1 a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.area1 li {
+	width: auto;
+}
+
+.btn {
+	display: block;
+	background-color: #1d1d1d;
+	color: #fff;
+	padding: 20px 80px 20px 80px;
+	margin-bottom: 10px;
+}
+
+.smlbtn {
+	display: none;
+	background-color: #1d1d1d;
+	color: #fff;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 10px;
+}
+
+.btn i {
+	margin-right: 5px;
+}
+
+.github {
+	background-color: #222;
+	color: #1d1d1d;
+}
+
+.download {
+	background-color: #1e7145;
+}
+
+.noicon {
+	float: right;
+	font-size: 2000%;
+	overflow: hidden;
+	margin-right: 30%;
+	color: #1d1d1d;
+	margin-bottom: 55px;
+}
+
+@media only screen and (max-width: 1600px) { 
+	.btn {
+		padding: 10px 40px 10px 40px;
+	} 
+}
+
+@media only screen and (max-width: 1000px) { 
+	.btn {
+		display: none;
+	} 
+	.smlbtn {
+		display: block;
+	}
 }
 
 
