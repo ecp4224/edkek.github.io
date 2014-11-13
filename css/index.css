@@ -69,6 +69,11 @@ div.github_button {
 	font-size: 74px;
 }
 
+.section ul {
+	display: block;
+	list-style: none;
+}
+
 .about p {
 	padding-right: 15%;
 	padding-left: 5%;
@@ -99,11 +104,6 @@ div.github_button {
 
 .skill_view p {
 	margin-top: -44px;
-}
-
-.skill_view ul {
-	display: block;
-	list-style: none;
 }
 
 .skill_view li {
@@ -163,8 +163,6 @@ div.github_button {
 }
 
 .area1 ul {
-	display: block;
-	list-style: none;
 	position: absolute;
 	bottom: 0;
 	left: 0;
