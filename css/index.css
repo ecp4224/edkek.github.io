@@ -74,6 +74,14 @@ div.github_button {
 	list-style: none;
 }
 
+
+.about {
+	background: url('../img/banner3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 .about p {
 	padding-right: 15%;
 	padding-left: 5%;
@@ -199,7 +207,7 @@ div.github_button {
 	background-color: #1d1d1d;
 	color: #fff;
 	padding: 10px 20px 10px 20px;
-	margin-bottom: 10px;
+	margin-bottom: 1.3em;
 }
 
 .btn i {
@@ -208,11 +216,22 @@ div.github_button {
 
 .github {
 	background-color: #222;
-	color: #1d1d1d;
 }
 
 .download {
 	background-color: #1e7145;
+}
+
+.skype {
+	background-color: #00aff0;
+}
+
+.google {
+	background-color: #df4b38
+}
+
+.email {
+	background-color: #75d000;
 }
 
 .noicon {
@@ -222,6 +241,35 @@ div.github_button {
 	margin-right: 30%;
 	color: #1d1d1d;
 	margin-bottom: 55px;
+}
+
+.contact ul {
+	display: inline;
+	list-style-type: none;
+}
+
+.contact li {
+	float: left;
+	width: 18%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	margin-right: 4em;
+}
+
+.contact a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.contact a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.btn-div {
+	padding-top: 15%;
+	padding-bottom: 15%;
 }
 
 @media only screen and (max-width: 1600px) { 
