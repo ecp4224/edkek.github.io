@@ -154,10 +154,13 @@ div.github_button {
 	float: left;
 	text-align: center;
 	width: 25%;
-	height: 500px;
 	font-weight: 100;
 	font-size: 20px;
 	position: relative;
+}
+
+.noimg {
+	height: 500px;
 }
 
 .area1 h2 {
@@ -171,6 +174,12 @@ div.github_button {
 }
 
 .area1 ul {
+	margin-top: 70px;
+	padding-left: 0;
+	padding-bottom: 10px;
+}
+
+.noimg ul {
 	position: absolute;
 	bottom: 0;
 	left: 0;
