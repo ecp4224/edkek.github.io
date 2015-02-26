@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/hakase
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://eddiep.me
+  * I am hakase (https://keybase.io/hakase) on keybase.
+  * I have a public key with fingerprint 1508 8F65 11CD 7086 C39C  585C 9445 0EE4 361E A385
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.7"
+        },
+        "key": {
+            "fingerprint": "15088f6511cd7086c39c585c94450ee4361ea385",
+            "host": "keybase.io",
+            "key_id": "94450EE4361EA385",
+            "uid": "3b21158330d87a671c28915927eedd19",
+            "username": "hakase"
+        },
+        "merkle_root": {
+            "ctime": 1424915544,
+            "hash": "f9b344ce45614552b388ba46a4776f4d726938ea7b51b951718ba0c6e58ae169dffb2d91a4fb20be63d32956d62e2dfb6c06d5d909bc775346436c0c4ac5fae4",
+            "seqno": 163772
+        },
+        "service": {
+            "hostname": "eddiep.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1424915598,
+    "expire_in": 157680000,
+    "prev": "5f5cc2af7cbd305a4ad2f7a8e698666ff74aabedd8720e355f3cfceefc53d105",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFdkntQFVUcxy838RXgLYtpRALXx2Bzw32ds7uINGq3Bm2Ergg0Kdfds2e5y+Pe
+6+6FuigmASNSkRRjJjaTgmB/MOLIq6QgLEspkcYhUlFRYNQsHE0lH9Eu2fQ4/5yz
+ez6/7/l+z+9sD33EYg2qcoQNwadrSoO6r0iWlF83VWwkJK8cIOI2EihHxR6/ufKI
+uZiII7JxQBJ1HKt6oz1eGcdm6dEPGTuRjzVd9XoMiozlYjmi0G7iZrGiejKx5tNU
+U4ugAMnzCgQUhWSO5CFiBAR4gASWBSTGLAMpLDI8MCTdXt3/n1OJCU2XKht/J3iH
+w+QdS//i8yY2GImmKMAzDCnznAg5CtG8QAGB5jCWZUowQR1rDyO5xWxD23Sbi7Xs
+HOzSvN6JyMivmgDF0qxRDVjW8CPqbqNEESSGZRFmAaRYAGiJ4XlJZKHIchxUWJmj
+ocDwWOQkQEkCoDjK2CYRxIAXMQUFWVEkWhYokTVmUsKQkRlaAFCGNKZlRYKIhDKQ
+BVKQEMcBhoVGSEQiVkRAETFrBNDxBo/XMAcZjqMLzW8tX0XY9G1e2sNsRlwV+2KN
+tZ3waV6/F3lzzMh+vy/OTOwP+EzsNSy5JgT2I+ySVI9s9OvfDaUM9H+3IfB2Ar/u
+UzXsUk0CcJAnjWGeg/MNTaAAhGhR4ZAkMyQQWVGmFU7kMRR4CKGicKwoSoZBnqNJ
+zACgMEhBGCsIMDJFgn8y0oZPMdOQ1NVMj+jP04xmbbPOnmQJslomB1vNF2uZPs32
+9zMebrZZGvaGH68/fFRY3ZJxYNqP3YW3lHyeXtiRyVc3v/dNCZkkdxaxaHPovEuL
+4x1zGrlLxXNr7zorMxbM7BmyNbytu5XmA9+V+SUu/Y1vqxbcTL3DFrSWlFpvzRx8
+c83Zl64lJxHXsjJXnAgL+nlKmJgX1VpzcvzW7O9PXp0+f8aK8K2ugjPvbDrYkr9q
+SWrbbfvO4zuOnKjm2w7U79xLXJgVsB2rC16/Zd6TabmR8oe9pWsrEvtDVk1+sJSK
+2dIeWbXyojOYD9LkzrH1lDX9bMah4mP7l9zYVba64uPfn9q943N3amL67obT+5Id
+yfMSzrzQ3Hi7tajz1MIvLid0zX/8tzbR1dd0feqkAlurp09/5pPcqUN1ERWHYiIa
+Pl03eKGza/rh1p09o33CotDnNTdfE7Hozoqvt18OTvljLKzIXpqsFZ9TyizgUe0g
+Ygb3nX/XQS2zqXXP9cR3fRliL+qIvj+S5K8cOhfevXy88P34n5qHx8b7o2qPlYy1
+O9M2lJ+2tXR/NlBZ1bTrh8SBMt9jae6aqOVN8KP7LDNQkL6ud/hk4g2n7ktU94w2
+9lbVtod0pVztOb/yiZfv2QbgaPWUoV+yRlyz1sCb9SNzawNHZ9wdXrxvV6Ch5Urk
+2upTryS9eG1b8pGShOgZzs4PXt1zvdzZ/ezWvIF7R+ZE7C5fFrYkvKzjra9iHujp
+TZUXN/f/CQ==
+=mVJh
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hakase
+
+==================================================================
