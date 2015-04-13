@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+c<!DOCTYPE html>
 <html>
 	<head>
 		<title>Hello</title>
@@ -50,10 +50,14 @@
 				<div class="ha-header-front">
 					<h1><span>Eddie Penta</span></h1>
 					<nav>
+						<!--
 						<a href="#about">About Me</a>
-						<a href="#skills">Skills</a>
+						--->
 						<a href="#projects">Projects</a>
+						<a href="#skills">Skills</a>
+						<!--
 						<a href="http://eddiep.me/blog/">Blog</a>
+						--->
 						<a href="#contact">Contact</a>
 					</nav>
 				</div>
@@ -66,6 +70,7 @@
 				<p data-scrollreveal="wait 2.6s enter from the top and move 23px over 1.05s">Scroll down to learn more</p>
 			</span>
 		</div>
+		<!--
 		<div class="section about" id="about" data-animate-down="ha-header-small" data-animate-up="ha-header-zoomout">
 			<h1>About Me</h1>
 			<p>
@@ -95,56 +100,8 @@
 			in C#. I hope to complete my other projects so I can finally make them public.
 			</p>
 		</div>
-		<div class="section skills" id="skills">
-			<h1>Skills</h1>
-			<div class="skill_view">
-				<ul>
-					<li>
-						<div>
-							<h2>C#</h2>
-							<p>4 years of experience</p>
-						</div>
-					</li>
-					<li>
-						<div>
-							<h2>Java</h2>
-							<p>4 years of experience</p>
-						</div>
-					</li>
-					<li>
-						<div>
-							<h2>C++</h2>
-							<p>0.5 year of experience</p>
-						</div>
-					</li>
-					<li>
-						<div>
-							<h2>C</h2>
-							<p>0.5 year of experience</p>
-						</div>
-					</li>
-					<li>
-						<div>
-							<h2>HTML/CSS</h2>
-							<p>1 year of experience</p>
-						</div>
-					</li>
-					<li>
-						<div>
-							<h2>Android Development</h2>
-							<p>2 year of experience</p>
-						</div>
-					</li>
-					<li>
-						<div>
-							<h2>Javascript</h2>
-							<p>0.5 year of experience</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="section projects" id="projects">
+		-->
+		<div class="section projects" id="projects" data-animate-down="ha-header-small" data-animate-up="ha-header-zoomout">
 			<h1>Projects</h1>
 			<ul class="bxslider">
 				<li>
@@ -340,6 +297,55 @@
 				</li>
 			</ul>
 		</div>
+		<div class="section skills" id="skills">
+			<h1>Skills</h1>
+			<div class="skill_view">
+				<ul>
+					<li>
+						<div>
+							<h2>C#</h2>
+							<p>4 years of experience</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h2>Java</h2>
+							<p>4 years of experience</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h2>C++</h2>
+							<p>0.5 year of experience</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h2>C</h2>
+							<p>0.5 year of experience</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h2>HTML/CSS</h2>
+							<p>1 year of experience</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h2>Android Development</h2>
+							<p>2 year of experience</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h2>Javascript</h2>
+							<p>0.5 year of experience</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
 		<div class="section contact" id="contact">
 			<h1>Contact</h1>
 			<p style="font-size: 18px">I can be contacted through many different methods, don't be shy, I always respond :)</p>
@@ -432,7 +438,7 @@
 			});
 			
 			var $head = $('#ha-header');
-			$('#about').each( function(i) {
+			$('#projects').each( function(i) {
 				var $el = $(this),
 					animClassDown = $el.data('animateDown'),
 					animClassUp = $el.data('animateUp');
