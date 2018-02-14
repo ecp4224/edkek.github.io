@@ -18,6 +18,7 @@ Math.degrees = function(radians) {
 };
 
 window.onload = function() {
+  $('#time').css({'display': 'none'})
   if (typeof AudioContext === "undefined") {
     $('h1').text(":(");
     $('p').text("This browser is not supported...");
@@ -43,16 +44,17 @@ window.onload = function() {
   gameHeight = $(window).height();
 
   showIntro();
-  createBars();
 
   audio.play();
   audio.ontimeupdate = function() {
     timeLeft--;
-    console.log(timeLeft);
     if (timeLeft <= 0 && !faded) {
       faded = true;
       $('#myCanvas').fadeIn();
+      createBars();
       $('#intro2').fadeOut();
+      $('#time').fadeIn();
+      renderFrame();
     }
   };
   audio.addEventListener('ended', function() {
@@ -60,32 +62,26 @@ window.onload = function() {
     this.play();
   }, false);
 
-  renderFrame();
   showAuthor();
 };
 
 function createBars() {
-    var x = 0;
-    var startY = -150;
-
-    //var centerX = Math.floor(window.innerWidth/7);
-    //var centerY = Math.floor(window.innerHeight/7);
-    //radius = window.innerWidth / 8;
-    //centerY = centerY - (radius / 8);
+    var centerX = Math.floor(window.innerWidth/2);
+    var centerY = Math.floor(window.innerHeight/4);
+    radius = window.innerWidth / 8;
+    centerY = centerY - (radius / 8);
 
     for (var i = 0; i < 360 / intensity; i++) {
         var e = $("<div class='bar no-interact'></div>");
 
-        var x = x;
-        var y = startY + i + 5;
-        //var degree = (i * intensity) - 90;
-        //var rad = Math.radians(i * intensity);
+        var degree = (i * intensity) - 90;
+        var rad = Math.radians(i * intensity);
 
-        //var x = (centerX + radius * Math.cos(rad));
-        //var y = (centerY + radius * Math.sin(rad));
+        var x = (centerX + radius * Math.cos(rad));
+        var y = (centerY + radius * Math.sin(rad));
 
-        e.css({top: y, right: x, position: 'absolute', 'transform': 'rotate(90deg)'});
-        //e.css({'transform': 'rotate(' + degree + 'deg)', '-webkit-transform': 'rotate(' + degree + 'deg)'});
+        e.css({top: y, left: x, position: 'absolute'});
+        e.css({'transform': 'rotate(' + degree + 'deg)', '-webkit-transform': 'rotate(' + degree + 'deg)'});
 
         e.appendTo('.bars');
 
@@ -96,22 +92,45 @@ function createBars() {
 function renderFrame() {
     analyser.getByteFrequencyData(frequencyData);
 
-    var x = 0;
-    var startY = -150;
+    var centerX = Math.floor(window.innerWidth/2);
+    var centerY = Math.floor(window.innerHeight/4);
 
-    for (var i = 0; i < 360 / intensity; i++) {
+    radius = window.innerWidth / 8;
+    centerY = centerY - (radius / 8);
+
+    for (var i = start; i < (360 / intensity) + start; i++) {
         var value = frequencyData[i];
         var bar = bars[i - start];
 
-        //var rad = Math.radians((i - start) * intensity);
+        var rad = Math.radians((i - start) * intensity);
 
-        var x = x;
-        var y = startY + i + 5;
+        var x = (centerX + radius * Math.cos(rad));
+        var y = (centerY + radius * Math.sin(rad));
 
-        bar.css({'height': value, 'top': y, 'right': x});
+        bar.css({'height': value, 'top': y, 'left': x});
     }
 
+    updateTime();
+
     requestAnimationFrame(renderFrame);
+}
+
+function updateTime() {
+    var time = $('#time');
+
+    var now = new Date();
+
+    var hours = now.getHours();
+    if (hours < 10) {
+        hours = '0' + hours;
+    }
+
+    var minutes = now.getMinutes();
+    if (minutes < 10) {
+        minutes = '0' + minutes;
+    }
+
+    time.text(hours + ':' + minutes);
 }
 
 function showAuthor() {

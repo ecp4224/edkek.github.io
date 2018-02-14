@@ -91,6 +91,26 @@ h1#intro2.down {
     transform: translateY(200%);
 }
 
+h1#time.up {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
+h1#time.center {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+h1#time.down {
+    -webkit-transform: translateY(200%);
+    transform: translateY(200%);
+}
+
+#time {
+  display: none;
+  margin-top: -15px;
+}
+
 
 .up {
     opacity: 0;
