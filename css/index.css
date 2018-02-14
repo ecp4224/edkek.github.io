@@ -1,7 +1,16 @@
+@font-face {
+    font-family: 'vcr_osd_monoregular';
+    src: url('vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
+         url('vcr_osd_mono_1.001-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0 auto;
     font-family: 'Unica One', cursive;
-    color: white;
+    color: rgb(178,201,211);
+    background-color: rgb(13,7,25);
 }
 
 html, body {
@@ -21,14 +30,15 @@ footer {
 
 .vid{
     margin: 0 auto;
-    filter: blur(15px);
+    /*filter: blur(15px);
     -webkit-filter: blur(15px);
     -moz-filter: blur(15px);
     -o-filter: blur(15px);
-    -ms-filter: blur(15px);
+    -ms-filter: blur(15px);*/
     width: 100%;
     height: 100%;
     overflow: hidden;
+    text-align: center;
 }
 
 .vid > video {
@@ -51,32 +61,32 @@ footer {
     transition: all 1.5s;
 }
 
-h1#name.up {
+h1#intro.up {
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
 }
 
-h1#name.center {
+h1#intro.center {
   -webkit-transform: translateY(0%);
   transform: translateY(0%);
 }
 
-h1#name.down {
+h1#intro.down {
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
 }
 
-h1#time.up {
+h1#intro2.up {
     -webkit-transform: translateY(0%);
     transform: translateY(0%);
 }
 
-h1#time.center {
+h1#intro2.center {
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
 }
 
-h1#time.down {
+h1#intro2.down {
     -webkit-transform: translateY(200%);
     transform: translateY(200%);
 }
@@ -95,14 +105,15 @@ h1#time.down {
 }
 
 .bars {
-    position: absolute;
-    display: table;
-    left: 50%;
-    top: 50%;
-    width: 50%;
-    height: 46%;
-    margin-left: -25%;
-    margin-top: -15%;
+  position: absolute;
+  display: table;
+  right: 0;
+  top: 50%;
+  width: 100%;
+  height: 46%;
+  margin-left: -25%;
+  margin-top: -15%;
+  text-align: center;
 }
 
 .bar {
@@ -126,12 +137,19 @@ h1#time.down {
     user-select: none;
 }
 
+#myCanvas {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
 #author {
     width: 60px;
     height: 60px;
     position: absolute;
     bottom: 15px;
-    left: 40px;
+    right: 40px;
+    background-size: cover;
     background-position: center;
     background-image: url(../img/author.jpg);
 }
@@ -142,4 +160,24 @@ h1#time.down {
     position: absolute;
     bottom: 15px;
     right: 40px;
+}
+
+#warning-message {
+  display: none;
+  position: absolute;
+  display: table;
+  right: 0;
+  top: 50%;
+  width: 100%;
+  height: 46%;
+  margin-left: -25%;
+  margin-top: -15%;
+  text-align: center;
+ }
+@media only screen and (orientation:portrait){
+  #wrapper { display:none; }
+  #warning-message { display:block; }
+}
+@media only screen and (orientation:landscape){
+  #warning-message { display:none; }
 }
