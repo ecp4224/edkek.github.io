@@ -75,8 +75,8 @@ function groundCube(x, z) {
     "width": 100,
     "height": 50,
     "isEasing": false,
-    "easeTarget": 0
-    "easeStart": 0
+    "easeTarget": 0,
+    "easeStart": 0,
     "update": function() {
       pointLight(0, 0, 255, this.x, 10, this.z);
       specularMaterial(250);
