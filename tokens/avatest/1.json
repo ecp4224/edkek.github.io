@@ -1,0 +1,47 @@
+{
+  "name": "Ava Test Token 0",
+  "image": "https://i.imgur.com/3U5mA3L.png",
+  "image_url": "https://i.imgur.com/3U5mA3L.png",
+  "home_url": "https://edkek.github.io/tokens/avatest/1.html",
+  "description": "This is a test token to represent an NFT Token on Avalanche",
+  "meta": {
+    "score": 50,
+    "wins": 120,
+    "speed": 112,
+    "armor": 300,
+    "tokenId": "1"
+  },
+  "attributes": [
+    {
+      "max_value": 185,
+      "trait_type": "Score",
+      "value": 50
+    },
+    {
+      "max_value": 150,
+      "trait_type": "Wins",
+      "value": 120
+    },
+    {
+      "display_type": "boost_number",
+      "max_value": 500,
+      "trait_type": "Armor",
+      "value": 300
+    },
+    {
+      "display_type": "boost_number",
+      "max_value": 218.75,
+      "trait_type": "Speed",
+      "value": 112
+    }
+  ],
+  "external_url": "https://edkek.github.io/tokens/avatest/1.html",
+  "background_color": "0b0c22",
+  "tags": [
+    "gaming",
+    "avalabs",
+    "ava",
+    "nft",
+    "test"
+  ]
+}
